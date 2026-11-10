@@ -90,17 +90,37 @@ contributor:
   roleName:
   - dcite:ProjectMember
   schemaKey: Person
+- awardNumber: UM1NS132250
+  identifier: https://ror.org/00dcv1019
+  name: Allen Institute for Brain Science
+  schemaKey: Organization
+  url: https://alleninstitute.org/
+- awardNumber: UM1NS132250
+  identifier: https://ror.org/04xeg9z08
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nimh.nih.gov/
 dateCreated: '2026-09-29T18:29:29.200317+00:00'
 description: NWB2 files for the Patch-seq experiments in the Human Neocortical Glutamatergic
   Neurons Revealed Through Multimodal Profiling manuscript
 ethicsApproval: []
 id: DANDI:002018/draft
 identifier: DANDI:002018
+keywords:
+- human
+- patch-seq
+- multimodal
+- neocortex
+- glutamatergic neurons
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002018/versions/draft/assets/
 name: Human Neocortical Glutamatergic Neurons Revealed Through Multimodal Profiling
+protocol:
+- https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
