@@ -22,9 +22,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: current clamp technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 5922908601
-  numberOfFiles: 160
-  numberOfSubjects: 56
+  numberOfBytes: 6044957520
+  numberOfFiles: 163
+  numberOfSubjects: 59
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
@@ -36,22 +36,59 @@ assetsSummary:
   - CurrentClampSeries
   - VoltageClampStimulusSeries
   - CurrentClampStimulusSeries
-citation: Lee, Brian; Gonzalez, Limary (2026) Human Neocortical Glutamatergic Neurons
-  Revealed Through Multimodal Profiling (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/002018/draft
+citation: Lee, Brian; Gonzalez, Limary; Sorensen, Staci; Kalmbach, Brian; Dalley,
+  Rachel; Lein, Ed; Jarsky, Tim (2026) Human Neocortical Glutamatergic Neurons Revealed
+  Through Multimodal Profiling (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002018/draft
 contributor:
 - affiliation: []
   email: brianle@alleninstitute.org
+  identifier: 0000-0002-3210-5638
   includeInCitation: true
   name: Lee, Brian
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
 - email: limary.gonzalez@alleninstitute.org
+  identifier: 0009-0009-0306-0002
   includeInCitation: true
   name: Gonzalez, Limary
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- email: stacis@alleninstitute.org
+  identifier: 0000-0002-6799-2126
+  includeInCitation: true
+  name: Sorensen, Staci
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- email: briank@alleninstitute.org
+  identifier: 0000-0003-3136-8097
+  includeInCitation: true
+  name: Kalmbach, Brian
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- email: racheld@alleninstitute.org
+  identifier: 0000-0001-7461-7845
+  includeInCitation: true
+  name: Dalley, Rachel
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- email: EdL@alleninstitute.org
+  identifier: 0000-0001-9012-6552
+  includeInCitation: true
+  name: Lein, Ed
+  roleName:
+  - dcite:ProjectLeader
+  schemaKey: Person
+- email: timj@alleninstitute.org
+  identifier: 0000-0002-4399-539X
+  includeInCitation: true
+  name: Jarsky, Tim
+  roleName:
+  - dcite:ProjectMember
   schemaKey: Person
 dateCreated: '2026-09-29T18:29:29.200317+00:00'
 description: NWB2 files for the Patch-seq experiments in the Human Neocortical Glutamatergic
