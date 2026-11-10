@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -10,8 +11,9 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Lee, Brian (2026) Human Neocortical Glutamatergic Neurons Revealed Through
-  Multimodal Profiling (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002018/draft
+citation: Lee, Brian; Gonzalez, Limary (2026) Human Neocortical Glutamatergic Neurons
+  Revealed Through Multimodal Profiling (Version draft) [Data set]. DANDI Archive.
+  https://dandiarchive.org/dandiset/002018/draft
 contributor:
 - affiliation: []
   email: brianle@alleninstitute.org
@@ -20,9 +22,16 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- email: limary.gonzalez@alleninstitute.org
+  includeInCitation: true
+  name: Gonzalez, Limary
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
 dateCreated: '2026-09-29T18:29:29.200317+00:00'
 description: NWB2 files for the Patch-seq experiments in the Human Neocortical Glutamatergic
   Neurons Revealed Through Multimodal Profiling manuscript
+ethicsApproval: []
 id: DANDI:002018/draft
 identifier: DANDI:002018
 license:
@@ -30,8 +39,10 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002018/versions/draft/assets/
 name: Human Neocortical Glutamatergic Neurons Revealed Through Multimodal Profiling
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/002018/draft
 version: draft
+wasGeneratedBy: []
