@@ -41,7 +41,8 @@ assetsSummary:
   - CurrentClampStimulusSeries
 citation: Lee, Brian; Gonzalez, Limary; Sorensen, Staci; Kalmbach, Brian; Dalley,
   Rachel; Lein, Ed; Jarsky, Tim (2026) Human Neocortical Glutamatergic Neurons Revealed
-  Through Multimodal Profiling (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002018/draft
+  Through Multimodal Profiling (Version 0.261117.2218) [Data set]. DANDI Archive.
+  https://doi.org/10.48324/dandi.002018/0.261117.2218
 contributor:
 - affiliation: []
   email: brianle@alleninstitute.org
@@ -106,10 +107,12 @@ contributor:
   schemaKey: Organization
   url: https://www.nimh.nih.gov/
 dateCreated: '2026-09-29T18:29:29.200317+00:00'
+datePublished: '2026-11-17T22:18:35.151741+00:00'
 description: NWB2 files for the Patch-seq experiments in the Human Neocortical Glutamatergic
   Neurons Revealed Through Multimodal Profiling manuscript
+doi: 10.48324/dandi.002018/0.261117.2218
 ethicsApproval: []
-id: DANDI:002018/draft
+id: DANDI:002018/0.261117.2218
 identifier: DANDI:002018
 keywords:
 - human
@@ -120,14 +123,26 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/002018/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/002018/0.261117.2218/assets.yaml
 name: Human Neocortical Glutamatergic Neurons Revealed Through Multimodal Profiling
 protocol:
 - https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3
+publishedBy:
+  endDate: '2026-11-17T22:18:35.151741+00:00'
+  id: urn:uuid:511d6feb-dc87-47fc-a8d7-59544cd2c5ba
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-17T22:18:35.151741+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:60b64c85-8c8d-464e-86ad-87f1c6aafeec
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/002018/draft
-version: draft
+url: https://dandiarchive.org/dandiset/002018/0.261117.2218
+version: 0.261117.2218
 wasGeneratedBy: []
